@@ -1,0 +1,46 @@
+*{
+   margin:0;
+   height:100%;
+}
+
+.container--stage-and-nav--flex { 
+   display:flex;
+   position:relative;
+   flex-direction:row;
+   flex-wrap:nowrap;    /* this would change on mobile vertical */
+}
+
+stage1 { 
+   order: 1;
+   width: 70vw; 
+   padding: 0;    /* important... this padding belongs to CONTENT or it will not align. */
+   height: 100%;
+   overflow:hidden;
+}
+
+.column-resizer {
+   order:2;
+   background-color:#220000;  /* In future, make a vertical trench image. Better, a trench via CSS. */
+   width:10px;
+   cursor:col-resize;
+   height:100%;
+}
+
+stage2 { 
+   flex: 1;
+   order: 3;
+   padding:0;           /* important... this padding belongs to CONTENT or it will not align. */
+   height:100%;
+   overflow:hidden;
+}
+
+.stage__content { 
+   overflow: hidden;
+   min-height: 0px;
+   position: relative; 
+}
+
+.stage__element {
+   position:absolute;
+   overflow:hidden;
+}
