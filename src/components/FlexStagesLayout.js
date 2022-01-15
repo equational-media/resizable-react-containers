@@ -4,7 +4,7 @@ import Stage1Content from './Stage1Content';
 import Stage2Content from './Stage2Content';
 
 
-const FlexStagesLayout = (bkgdColor1, bkgdColor2) => {
+const FlexStagesLayout = () => {
 
    const [isResizingHoriz, setIsResizingHoriz] = useState(false);
    const [xMouseLast, setXMouseLast] = useState(-1);
