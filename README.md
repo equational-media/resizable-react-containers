@@ -5,6 +5,6 @@ This UI starting point uses CSS flexbox and React JS.
 
 This example uses React CSS components to style the content stages (ex. background color). However, no reason it couldn't be done directly in CSS. 
 
-Thanks to [https://github.com/1milligram/html-dom/blob/master/public/demo/create-resizable-split-views/index.html/] (https://github.com/1milligram/html-dom/blob/master/public/demo/create-resizable-split-views/index.html/) for the inspiration regarding the geometric resizing logic.
+Thanks to https://github.com/1milligram/html-dom/blob/master/public/demo/create-resizable-split-views/index.html/ for the inspiration regarding the geometric resizing logic.
 
-To insall, use `npx create-react-app` or `yarn create` (as described here] (https://create-react-app.dev/docs/getting-started/). Then replace what's in the `src` directory with the files from this repository. 
+To insall, use `npx create-react-app` or `yarn create` [as described here](https://create-react-app.dev/docs/getting-started/). Then replace what's in the `src` directory with the files from this repository. 
